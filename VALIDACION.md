@@ -1,22 +1,8 @@
-# UIO English Academy: auditoría y validación
+# UIO English Academy — validación pendiente
 
-Fecha: 13 de octubre de 2026. Propuesta local sin publicación ni cambios remotos.
+Fecha: 13 de octubre de 2026. Revisión final basada en `ea1a8c2`. El usuario autorizó el commit y la subida a main el 13 de octubre de 2026. La autorización de publicación no confirma los datos comerciales pendientes que se detallan a continuación. Se inspeccionaron el código y la versión anterior publicada en navegador.
 
-## Fuentes y límites
-
-Se revisó el repositorio https://github.com/THENEXTWEBEC/UIOEnglishAcademyQUITO, rama main descargada en esta fecha. El sitio directo no pudo recuperarse por las herramientas disponibles. El repositorio declara https://uioenglishacademy.org/ como su página principal; esta auditoría se basa en su código, no confirma que producción sea idéntica.
-
-## Hallazgos y decisiones
-
-- La página anterior repite el dominio como nombre de marca; se reemplaza por UIO English Academy.
-- Ocho opciones aparecen en tarjetas similares. Se reorganizan en tres objetivos y se mantienen visibles mediante pestañas: avanzar (regular, conversación, one to one), una meta (preparaciones, nivelaciones, supletorios), y empresas.
-- Se retiran cifras de experiencia, testimonios y supuestas acreditaciones sin evidencia independiente.
-- Las imágenes con nombres ChatGPT/Codex o exec no acreditan personas e instalaciones reales. Se reutiliza una imagen con aviso explícito de que es generada y provisional. La sección institucional usa composición tipográfica.
-- Se separa MCER, certificado de academia y examen externo. Los seis niveles no implican que todos estén disponibles en la academia.
-- Se elimina el selector de idioma: esta propuesta está completa en español.
-- El formulario prepara un correo con alternativa de copia; no guarda datos, envía automáticamente ni reserva cupos.
-
-## Datos pendientes antes de publicar
+## Aprobaciones del cliente
 
 | Dato | Fuente encontrada | Validación necesaria |
 | --- | --- | --- |
@@ -33,26 +19,33 @@ Se revisó el repositorio https://github.com/THENEXTWEBEC/UIOEnglishAcademyQUITO
 | Acompañamiento | Texto de metodología existente | Confirmar diagnóstico, recomendación y seguimiento antes de presentar el flujo propuesto como servicio vigente. |
 | Precios y costos | Sin tarifa confirmada | Cotización completa: matrícula, materiales, evaluaciones, certificados e inscripción a exámenes. |
 
-## Implementación
+## Avisos visibles que deben conservarse hasta validar
 
-Página estática con archivos index.html, styles.css, app.js y assets/learning-preview.jpg. Sin dependencias de terceros, videos, rastreadores ni fuentes remotas. Usa tipografías locales del sistema y Georgia para el contraste editorial solicitado. Imagen optimizada y con dimensiones reservadas. Menú móvil, enlaces a secciones, pestañas con teclado, preguntas desplegables, etiquetas de formulario y movimiento reducido.
+- Cabecera: «Propuesta de rediseño» y «Contenido y contactos pendientes de validación».
+- Las tres fotografías: imágenes generadas provisionales que no acreditan instalaciones, alumnos, docentes ni clases reales. Sustituir por fotografías autorizadas o aprobar expresamente su uso ilustrativo.
+- Programas: confirmar disponibilidad, modalidades, duración y horarios antes de retirar el aviso.
+- Cómo aprendes: diagnóstico, recomendación y acompañamiento son una propuesta por confirmar.
+- Niveles y certificación: confirmar alcance del certificado y requisitos; los seis niveles MCER no demuestran que la academia ofrezca todos.
+- Contacto: correo pendiente de validación operativa; dirección y ubicación comercial por confirmar. WhatsApp continúa sin enlace operativo debido al número incompleto.
+- Demo: confirmar gratuidad, condiciones y disponibilidad antes de prometer una reserva.
+- Pie: «Versión en revisión. Contenido y contactos sujetos a validación» y enlace a este documento.
 
-La paleta clara está fijada conforme al brief de blanco cálido y azul tinta. No se conecta un backend ni un servicio de reservas. Mantener la propuesta local hasta completar la validación comercial y aprobar publicación.
+No se reincorporarán años de experiencia, credenciales, acreditaciones, testimonios, precios ni convenios sin evidencia y autorización.
 
-## Verificación realizada
+## Funcionamiento de contacto
 
-- JavaScript: comprobación de sintaxis correcta.
-- HTML: identificadores únicos, enlaces internos y archivos locales comprobados.
-- Navegador: sin errores JavaScript capturados; imagen cargada correctamente.
-- Pestañas: selección por clic y flechas de teclado comprobada.
-- Móvil: menú abre, navega y se cierra correctamente.
-- Preguntas frecuentes: apertura comprobada.
-- Formulario: con datos ficticios se muestra el mensaje preparado y la alternativa de copia. No se envió correo. La entrega a la academia y la aplicación de correo externa no se verificaron.
-- Adaptación: ancho del documento coincide con la ventana en 391 px, 768 px y 1365 px. Ambas acciones principales quedan dentro de la altura de 768 px en laptop.
-- Capturas: preview/escritorio.jpg y preview/movil.jpg.
-- No se midieron Lighthouse ni métricas de carga en producción. No se verificaron titularidad de contactos ni pin comercial de Maps.
-- Referencia MCER verificada con https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions.
+El formulario valida los campos y prepara un mensaje. El visitante puede revisarlo, copiarlo, editarlo y abrir explícitamente su aplicación de correo. No transmite una solicitud por sí mismo, no guarda datos y no reserva cupos. No se comprobó recepción por la academia.
 
-## Imágenes adicionales
+Para envío real, la opción sencilla para este sitio estático es conectar un endpoint de Formspree propiedad de la academia, una vez confirmado el destinatario. Implementar y comprobar estados de envío, éxito y error y la recepción efectiva antes de anunciar que la consulta se envió. Esto tampoco constituye una reserva de horario. Referencia: [documentación oficial de formularios HTML](https://formspree.io/html/).
 
-Se añadieron dos imágenes generadas del repositorio, identificadas como provisionales: acompañamiento individual en Cómo aprendes y conversación en La academia. Ambas se optimizaron en JPEG, cargan de forma diferida y se adaptan a móvil.
+## Verificación de esta revisión
+
+- Siete anchos: 320, 375, 390, 430, 768, 1024 y 1440 px, sin desbordamiento horizontal detectado, con capturas revisadas.
+- Menú móvil, Escape, foco de destino, enlaces internos, pestañas por teclado, seis preguntas frecuentes y formulario comprobados en navegador.
+- Validación con datos ficticios: errores, foco, mensaje preparado, enlace de correo codificado, copia y edición. No se envió correo.
+- Sintaxis JavaScript, identificadores, etiquetas, referencias ARIA, sitemap y 21 comprobaciones HTTP de recursos correctos.
+- Lighthouse local: móvil 99/100/100/100 y escritorio 100/100/100/100 (rendimiento/accesibilidad/buenas prácticas/SEO). No equivalen a métricas de usuarios en producción.
+- Movimiento reducido y ausencia de JavaScript: revisados en código, sin emulación de ejecución. No se probó lector de pantalla ni dispositivos físicos.
+- Maps abre una búsqueda de la intersección; no confirma el pin comercial ni la sede.
+
+La implementación sigue siendo HTML, CSS y JavaScript sin dependencias en ejecución, fuentes remotas ni rastreadores añadidos. Las tres imágenes tienen variantes WebP responsivas; las secundarias usan carga diferida. La imagen de academia se reemplazó por una conversación con encuadre amplio. Todas conservan ahora su proporción natural, sin alturas fijas ni recortes forzados; se comprobaron 21 casos (tres imágenes en siete anchos), con carga correcta y sin desbordamiento horizontal. Las mediciones Lighthouse anteriores preceden estos últimos ajustes de imagen y encuadre. Se incorporaron metadatos, canonical, robots, sitemap, iconos y tarjeta social. El esquema describe únicamente el sitio, sin afirmaciones comerciales pendientes.

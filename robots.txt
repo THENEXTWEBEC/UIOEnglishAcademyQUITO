@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /VALIDACION.md
+
+Sitemap: https://uioenglishacademy.org/sitemap.xml
