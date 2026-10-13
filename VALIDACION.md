@@ -19,7 +19,7 @@ Fecha: 13 de octubre de 2026. Revisión final basada en `ea1a8c2`. El usuario au
 | Acompañamiento | Texto de metodología existente | Confirmar diagnóstico, recomendación y seguimiento antes de presentar el flujo propuesto como servicio vigente. |
 | Precios y costos | Sin tarifa confirmada | Cotización completa: matrícula, materiales, evaluaciones, certificados e inscripción a exámenes. |
 
-## Avisos visibles que deben conservarse hasta validar
+## Registro de avisos retirados de la interfaz
 
 - Cabecera: «Propuesta de rediseño» y «Contenido y contactos pendientes de validación».
 - Las tres fotografías: imágenes generadas provisionales que no acreditan instalaciones, alumnos, docentes ni clases reales. Sustituir por fotografías autorizadas o aprobar expresamente su uso ilustrativo.
@@ -29,6 +29,8 @@ Fecha: 13 de octubre de 2026. Revisión final basada en `ea1a8c2`. El usuario au
 - Contacto: correo pendiente de validación operativa; dirección y ubicación comercial por confirmar. WhatsApp continúa sin enlace operativo debido al número incompleto.
 - Demo: confirmar gratuidad, condiciones y disponibilidad antes de prometer una reserva.
 - Pie: «Versión en revisión. Contenido y contactos sujetos a validación» y enlace a este documento.
+
+El usuario solicitó retirar los avisos internos de la web pública el 13 de octubre de 2026. La interfaz ya no contiene los textos enumerados en este registro histórico ni el enlace a este documento. La lista de datos pendientes se conserva para mantenimiento interno; retirar avisos no constituye su verificación. Las imágenes siguen descritas como ilustraciones en sus alternativas accesibles.
 
 No se reincorporarán años de experiencia, credenciales, acreditaciones, testimonios, precios ni convenios sin evidencia y autorización.
 
