@@ -52,3 +52,7 @@ La paleta clara está fijada conforme al brief de blanco cálido y azul tinta. N
 - Capturas: preview/escritorio.jpg y preview/movil.jpg.
 - No se midieron Lighthouse ni métricas de carga en producción. No se verificaron titularidad de contactos ni pin comercial de Maps.
 - Referencia MCER verificada con https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions.
+
+## Imágenes adicionales
+
+Se añadieron dos imágenes generadas del repositorio, identificadas como provisionales: acompañamiento individual en Cómo aprendes y conversación en La academia. Ambas se optimizaron en JPEG, cargan de forma diferida y se adaptan a móvil.
